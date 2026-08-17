@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://labmecenergiaxxi.com/sitemap.xml
+Sitemap: https://labmecenergia.com.pe/sitemap.xml
