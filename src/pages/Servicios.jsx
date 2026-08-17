@@ -81,7 +81,7 @@ function Servicios() {
                 <section className="relative overflow-hidden bg-[#231F20] px-5 py-20 text-white lg:px-8">
                     <div className="absolute inset-0">
                         <img
-                            src="/public/img/servicio_tecnico.webp"
+                            src="/img/servicio_tecnico.webp"
                             alt="Servicios técnicos industriales"
                             className="h-full w-full object-cover opacity-20"
                         />

@@ -99,7 +99,7 @@ function Contacto() {
                 <section className="relative overflow-hidden bg-[#231F20] px-5 py-20 text-white lg:px-8">
                     <div className="absolute inset-0">
                         <img
-                            src="/public/img/contacto.webp"
+                            src="/img/contacto.webp"
                             alt="Contacto LABMEC"
                             className="h-full w-full object-cover opacity-20"
                         />

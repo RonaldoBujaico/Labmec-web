@@ -5,7 +5,7 @@ function Hero() {
         <section className="relative overflow-hidden bg-[#231F20]">
             <div className="absolute inset-0">
                 <img
-                    src="/public/img/home.webp"
+                    src="/img/home.webp"
                     alt="Técnico industrial trabajando con equipos"
                     className="h-full w-full object-cover opacity-25"
                 />
