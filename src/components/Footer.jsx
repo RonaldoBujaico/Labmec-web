@@ -57,7 +57,7 @@ function Footer() {
             </div>
 
             <div className="mx-auto mt-12 max-w-7xl border-t border-white/10 pt-6 text-center text-sm text-white/50">
-                © 2025 LABMEC ENERGÍA XXI EIRL. Todos los derechos reservados.
+                © {new Date().getFullYear()} LABMEC ENERGÍA XXI EIRL. Todos los derechos reservados.
             </div>
         </footer>
     )

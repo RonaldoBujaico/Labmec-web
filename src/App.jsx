@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import ScrollToTop from "./components/ScrollToTop"
 import Home from "./pages/Home"
 import VentaEquipos from "./pages/VentaEquipos"
 import AlquilerEquipos from "./pages/AlquilerEquipos"
@@ -7,10 +8,13 @@ import Calibracion from "./pages/Calibracion"
 import Servicios from "./pages/Servicios"
 import Nosotros from "./pages/Nosotros"
 import Contacto from "./pages/Contacto"
+import CookieBanner from "./components/CookieBanner"
 
 function App() {
   return (
     <BrowserRouter>
+      {/* Reinicia el scroll al inicio de la pantalla al cambiar de ruta */}
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<Nosotros />} />
